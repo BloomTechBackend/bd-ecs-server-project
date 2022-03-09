@@ -28,7 +28,7 @@ public class myControllers {
         }
         @PostMapping(value="/dinosaurs/matthew")   // handle the path - /dinosaurs/matthew for POST
         public String frank() {
-                System.out.println("--- HTTP POST for path (/dinosaurs) handler called ---");
+                System.out.println("--- HTTP POST for path (/dinosaurs/matthew) handler called ---");
                 return "Frank";
         }
         @GetMapping(value="/uma")   // handle the path - /uma for GET
